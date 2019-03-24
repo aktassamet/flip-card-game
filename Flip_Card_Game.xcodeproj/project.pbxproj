@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1171815A223995EC00B6BD94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11718159223995EC00B6BD94 /* AppDelegate.swift */; };
+		1171815F223995EC00B6BD94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171815D223995EC00B6BD94 /* Main.storyboard */; };
+		11718161223995EE00B6BD94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11718160223995EE00B6BD94 /* Assets.xcassets */; };
+		11718164223995EE00B6BD94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11718162223995EE00B6BD94 /* LaunchScreen.storyboard */; };
+		1171816C2239994100B6BD94 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171816B2239994100B6BD94 /* GameView.swift */; };
+		1171816E22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171816D22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift */; };
+		1171817022399C4500B6BD94 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171816F22399C4500B6BD94 /* Card.swift */; };
+		117181722239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117181712239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift */; };
+		117181742239A83C00B6BD94 /* MemoryGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117181732239A83C00B6BD94 /* MemoryGameViewController.swift */; };
+		42D20BA1913E8D06AA4FF653 /* Pods_Flip_Card_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B608AE53E50ADF606A980B9E /* Pods_Flip_Card_Game.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11718156223995EC00B6BD94 /* Flip_Card_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip_Card_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11718159223995EC00B6BD94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1171815E223995EC00B6BD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11718160223995EE00B6BD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11718163223995EE00B6BD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11718165223995EE00B6BD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1171816B2239994100B6BD94 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1171816D22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameCollectionViewLayout.swift; sourceTree = "<group>"; };
+		1171816F22399C4500B6BD94 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		117181712239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameCollectionViewCell.swift; sourceTree = "<group>"; };
+		117181732239A83C00B6BD94 /* MemoryGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameViewController.swift; sourceTree = "<group>"; };
+		1E29B5D04F576C1A35228F9C /* Pods-Flip_Card_Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flip_Card_Game.release.xcconfig"; path = "Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game.release.xcconfig"; sourceTree = "<group>"; };
+		7EB6696F35386E0BE776D5E6 /* Pods-Flip_Card_Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flip_Card_Game.debug.xcconfig"; path = "Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game.debug.xcconfig"; sourceTree = "<group>"; };
+		B608AE53E50ADF606A980B9E /* Pods_Flip_Card_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flip_Card_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11718153223995EC00B6BD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D20BA1913E8D06AA4FF653 /* Pods_Flip_Card_Game.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1171814D223995EC00B6BD94 = {
+			isa = PBXGroup;
+			children = (
+				11718158223995EC00B6BD94 /* Flip_Card_Game */,
+				11718157223995EC00B6BD94 /* Products */,
+				197B20CCDE07A20DE32BE071 /* Pods */,
+				4F3D6DEF4625198E472DA798 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11718157223995EC00B6BD94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11718156223995EC00B6BD94 /* Flip_Card_Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11718158223995EC00B6BD94 /* Flip_Card_Game */ = {
+			isa = PBXGroup;
+			children = (
+				11718159223995EC00B6BD94 /* AppDelegate.swift */,
+				1171815D223995EC00B6BD94 /* Main.storyboard */,
+				11718160223995EE00B6BD94 /* Assets.xcassets */,
+				11718162223995EE00B6BD94 /* LaunchScreen.storyboard */,
+				11718165223995EE00B6BD94 /* Info.plist */,
+				1171816F22399C4500B6BD94 /* Card.swift */,
+				1171816D22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift */,
+				117181712239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift */,
+				1171816B2239994100B6BD94 /* GameView.swift */,
+				117181732239A83C00B6BD94 /* MemoryGameViewController.swift */,
+			);
+			path = Flip_Card_Game;
+			sourceTree = "<group>";
+		};
+		197B20CCDE07A20DE32BE071 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EB6696F35386E0BE776D5E6 /* Pods-Flip_Card_Game.debug.xcconfig */,
+				1E29B5D04F576C1A35228F9C /* Pods-Flip_Card_Game.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F3D6DEF4625198E472DA798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B608AE53E50ADF606A980B9E /* Pods_Flip_Card_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11718155223995EC00B6BD94 /* Flip_Card_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11718168223995EE00B6BD94 /* Build configuration list for PBXNativeTarget "Flip_Card_Game" */;
+			buildPhases = (
+				C1DD7018784C290C581E6C09 /* [CP] Check Pods Manifest.lock */,
+				11718152223995EC00B6BD94 /* Sources */,
+				11718153223995EC00B6BD94 /* Frameworks */,
+				11718154223995EC00B6BD94 /* Resources */,
+				05E739EFACB134FF704B7B7D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flip_Card_Game;
+			productName = Flip_Card_Game;
+			productReference = 11718156223995EC00B6BD94 /* Flip_Card_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1171814E223995EC00B6BD94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Fundev;
+				TargetAttributes = {
+					11718155223995EC00B6BD94 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 11718151223995EC00B6BD94 /* Build configuration list for PBXProject "Flip_Card_Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1171814D223995EC00B6BD94;
+			productRefGroup = 11718157223995EC00B6BD94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11718155223995EC00B6BD94 /* Flip_Card_Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11718154223995EC00B6BD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11718164223995EE00B6BD94 /* LaunchScreen.storyboard in Resources */,
+				11718161223995EE00B6BD94 /* Assets.xcassets in Resources */,
+				1171815F223995EC00B6BD94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E739EFACB134FF704B7B7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1DD7018784C290C581E6C09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flip_Card_Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11718152223995EC00B6BD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171816C2239994100B6BD94 /* GameView.swift in Sources */,
+				117181742239A83C00B6BD94 /* MemoryGameViewController.swift in Sources */,
+				1171817022399C4500B6BD94 /* Card.swift in Sources */,
+				117181722239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift in Sources */,
+				1171815A223995EC00B6BD94 /* AppDelegate.swift in Sources */,
+				1171816E22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1171815D223995EC00B6BD94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1171815E223995EC00B6BD94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11718162223995EE00B6BD94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11718163223995EE00B6BD94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11718166223995EE00B6BD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11718167223995EE00B6BD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11718169223995EE00B6BD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB6696F35386E0BE776D5E6 /* Pods-Flip_Card_Game.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Flip_Card_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aktassamet.flipcardgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1171816A223995EE00B6BD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E29B5D04F576C1A35228F9C /* Pods-Flip_Card_Game.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Flip_Card_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aktassamet.flipcardgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11718151223995EC00B6BD94 /* Build configuration list for PBXProject "Flip_Card_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11718166223995EE00B6BD94 /* Debug */,
+				11718167223995EE00B6BD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11718168223995EE00B6BD94 /* Build configuration list for PBXNativeTarget "Flip_Card_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11718169223995EE00B6BD94 /* Debug */,
+				1171816A223995EE00B6BD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1171814E223995EC00B6BD94 /* Project object */;
+}
