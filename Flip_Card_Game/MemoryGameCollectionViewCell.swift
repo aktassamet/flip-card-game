@@ -94,6 +94,4 @@ extension MemoryGameCollectionViewCell {
 			toView.isHidden = true
 		}
 	}
-
 }
-
