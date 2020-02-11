@@ -3,34 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1171815A223995EC00B6BD94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11718159223995EC00B6BD94 /* AppDelegate.swift */; };
-		1171815F223995EC00B6BD94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171815D223995EC00B6BD94 /* Main.storyboard */; };
 		11718161223995EE00B6BD94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11718160223995EE00B6BD94 /* Assets.xcassets */; };
 		11718164223995EE00B6BD94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11718162223995EE00B6BD94 /* LaunchScreen.storyboard */; };
-		1171816C2239994100B6BD94 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171816B2239994100B6BD94 /* GameView.swift */; };
+		1171816C2239994100B6BD94 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171816B2239994100B6BD94 /* MemoryGameView.swift */; };
 		1171816E22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171816D22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift */; };
 		1171817022399C4500B6BD94 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171816F22399C4500B6BD94 /* Card.swift */; };
 		117181722239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117181712239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift */; };
 		117181742239A83C00B6BD94 /* MemoryGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117181732239A83C00B6BD94 /* MemoryGameViewController.swift */; };
+		11F35FC023F2C2A20041FF99 /* Layoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F35FBF23F2C2A20041FF99 /* Layoutable.swift */; };
+		11F35FC223F2C2AD0041FF99 /* Layouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F35FC123F2C2AD0041FF99 /* Layouting.swift */; };
+		11F35FC523F2C3730041FF99 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F35FC423F2C3730041FF99 /* CGSize+Extensions.swift */; };
+		11F35FC923F2DDDC0041FF99 /* AlertShowing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F35FC823F2DDDC0041FF99 /* AlertShowing.swift */; };
 		42D20BA1913E8D06AA4FF653 /* Pods_Flip_Card_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B608AE53E50ADF606A980B9E /* Pods_Flip_Card_Game.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11718156223995EC00B6BD94 /* Flip_Card_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip_Card_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11718159223995EC00B6BD94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1171815E223995EC00B6BD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11718160223995EE00B6BD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11718163223995EE00B6BD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11718165223995EE00B6BD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1171816B2239994100B6BD94 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1171816B2239994100B6BD94 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
 		1171816D22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameCollectionViewLayout.swift; sourceTree = "<group>"; };
 		1171816F22399C4500B6BD94 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		117181712239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameCollectionViewCell.swift; sourceTree = "<group>"; };
 		117181732239A83C00B6BD94 /* MemoryGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameViewController.swift; sourceTree = "<group>"; };
+		11F35FBF23F2C2A20041FF99 /* Layoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layoutable.swift; sourceTree = "<group>"; };
+		11F35FC123F2C2AD0041FF99 /* Layouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouting.swift; sourceTree = "<group>"; };
+		11F35FC423F2C3730041FF99 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		11F35FC823F2DDDC0041FF99 /* AlertShowing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertShowing.swift; sourceTree = "<group>"; };
 		1E29B5D04F576C1A35228F9C /* Pods-Flip_Card_Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flip_Card_Game.release.xcconfig"; path = "Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game.release.xcconfig"; sourceTree = "<group>"; };
 		7EB6696F35386E0BE776D5E6 /* Pods-Flip_Card_Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flip_Card_Game.debug.xcconfig"; path = "Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game.debug.xcconfig"; sourceTree = "<group>"; };
 		B608AE53E50ADF606A980B9E /* Pods_Flip_Card_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flip_Card_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +57,7 @@
 		1171814D223995EC00B6BD94 = {
 			isa = PBXGroup;
 			children = (
-				11718158223995EC00B6BD94 /* Flip_Card_Game */,
+				11718158223995EC00B6BD94 /* Sources */,
 				11718157223995EC00B6BD94 /* Products */,
 				197B20CCDE07A20DE32BE071 /* Pods */,
 				4F3D6DEF4625198E472DA798 /* Frameworks */,
@@ -66,21 +72,56 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11718158223995EC00B6BD94 /* Flip_Card_Game */ = {
+		11718158223995EC00B6BD94 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				11718159223995EC00B6BD94 /* AppDelegate.swift */,
-				1171815D223995EC00B6BD94 /* Main.storyboard */,
+				11F35FC623F2C4370041FF99 /* MemoryGame */,
+				11F35FBD23F2C17D0041FF99 /* Supporting */,
 				11718160223995EE00B6BD94 /* Assets.xcassets */,
-				11718162223995EE00B6BD94 /* LaunchScreen.storyboard */,
-				11718165223995EE00B6BD94 /* Info.plist */,
-				1171816F22399C4500B6BD94 /* Card.swift */,
-				1171816D22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift */,
-				117181712239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift */,
-				1171816B2239994100B6BD94 /* GameView.swift */,
-				117181732239A83C00B6BD94 /* MemoryGameViewController.swift */,
 			);
-			path = Flip_Card_Game;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		11F35FBD23F2C17D0041FF99 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				11F35FC323F2C3350041FF99 /* Extensions */,
+				11F35FBE23F2C2940041FF99 /* Protocols */,
+				11718165223995EE00B6BD94 /* Info.plist */,
+				11718162223995EE00B6BD94 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		11F35FBE23F2C2940041FF99 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11F35FBF23F2C2A20041FF99 /* Layoutable.swift */,
+				11F35FC123F2C2AD0041FF99 /* Layouting.swift */,
+				11F35FC823F2DDDC0041FF99 /* AlertShowing.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		11F35FC323F2C3350041FF99 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11F35FC423F2C3730041FF99 /* CGSize+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11F35FC623F2C4370041FF99 /* MemoryGame */ = {
+			isa = PBXGroup;
+			children = (
+				1171816F22399C4500B6BD94 /* Card.swift */,
+				117181732239A83C00B6BD94 /* MemoryGameViewController.swift */,
+				1171816B2239994100B6BD94 /* MemoryGameView.swift */,
+				117181712239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift */,
+				1171816D22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift */,
+			);
+			path = MemoryGame;
 			sourceTree = "<group>";
 		};
 		197B20CCDE07A20DE32BE071 /* Pods */ = {
@@ -112,6 +153,7 @@
 				11718153223995EC00B6BD94 /* Frameworks */,
 				11718154223995EC00B6BD94 /* Resources */,
 				05E739EFACB134FF704B7B7D /* [CP] Embed Pods Frameworks */,
+				11F35FC723F2D09E0041FF99 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -162,7 +204,6 @@
 			files = (
 				11718164223995EE00B6BD94 /* LaunchScreen.storyboard in Resources */,
 				11718161223995EE00B6BD94 /* Assets.xcassets in Resources */,
-				1171815F223995EC00B6BD94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,21 +216,34 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flip_Card_Game/Pods-Flip_Card_Game-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		11F35FC723F2D09E0041FF99 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftlint\n";
 		};
 		C1DD7018784C290C581E6C09 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -220,11 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1171816C2239994100B6BD94 /* GameView.swift in Sources */,
+				1171816C2239994100B6BD94 /* MemoryGameView.swift in Sources */,
 				117181742239A83C00B6BD94 /* MemoryGameViewController.swift in Sources */,
+				11F35FC023F2C2A20041FF99 /* Layoutable.swift in Sources */,
 				1171817022399C4500B6BD94 /* Card.swift in Sources */,
+				11F35FC523F2C3730041FF99 /* CGSize+Extensions.swift in Sources */,
 				117181722239A6AC00B6BD94 /* MemoryGameCollectionViewCell.swift in Sources */,
+				11F35FC923F2DDDC0041FF99 /* AlertShowing.swift in Sources */,
 				1171815A223995EC00B6BD94 /* AppDelegate.swift in Sources */,
+				11F35FC223F2C2AD0041FF99 /* Layouting.swift in Sources */,
 				1171816E22399B0800B6BD94 /* MemoryGameCollectionViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,14 +290,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1171815D223995EC00B6BD94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1171815E223995EC00B6BD94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11718162223995EE00B6BD94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,18 +422,20 @@
 			baseConfigurationReference = 7EB6696F35386E0BE776D5E6 /* Pods-Flip_Card_Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Flip_Card_Game/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aktassamet.flipcardgame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aktas.flipcardgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -392,18 +444,20 @@
 			baseConfigurationReference = 1E29B5D04F576C1A35228F9C /* Pods-Flip_Card_Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Flip_Card_Game/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aktassamet.flipcardgame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aktas.flipcardgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
