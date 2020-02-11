@@ -6,7 +6,6 @@
 //  Copyright © 2019 Fundev. All rights reserved.
 //
 
-
 import UIKit
 
 final class MemoryGameCollectionViewCell: UICollectionViewCell {
@@ -22,7 +21,7 @@ final class MemoryGameCollectionViewCell: UICollectionViewCell {
 		return imageView
 	}()
 
-	private lazy var backImageView: UIImageView = {
+	lazy var backImageView: UIImageView = {
 		return UIImageView()
 	}()
 
@@ -49,7 +48,6 @@ final class MemoryGameCollectionViewCell: UICollectionViewCell {
 		fatalError("init(coder:) has not been implemented")
 	}
 
-
 }
 
 // MARK: - Configure
@@ -57,6 +55,10 @@ extension MemoryGameCollectionViewCell {
 
 	func configure(for card: Card) {
 		backImageView.image = card.image
+		face = .back
+		isLocked = false
+		backImageView.isHidden = true
+		frontImageView.isHidden = false
 	}
 
 }

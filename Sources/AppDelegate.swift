@@ -15,12 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-		window = UIWindow.init(frame: UIScreen.main.bounds)
-		window?.rootViewController = MemoryGameViewController(level: 2)
-
+		setupApplication()
 		return true
 	}
 
-
 }
 
+// MARK: - Actions
+private extension AppDelegate {
+
+	func setupApplication() {
+		window = UIWindow.init(frame: UIScreen.main.bounds)
+		window?.rootViewController = MemoryGameViewController(.medium)
+		window?.makeKeyAndVisible()
+	}
+
+}

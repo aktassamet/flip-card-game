@@ -19,14 +19,20 @@ struct Card: Equatable {
 
 }
 
+public enum Level: Int {
+	case easy = 1
+	case medium = 2
+	case hard = 3
+}
+
 extension Card {
 
 	static func numberOfCards(forLevel level: Int) -> Int {
 		return numberOfRows(forLevel: level) * numberOfColumns(forLevel: level)
 	}
 
-	static func cards(forLevel level: Int) -> [Card] {
-		let cards = all.shuffled().prefix(numberOfCards(forLevel: level) / 2)
+	static func cards(forLevel level: Level) -> [Card] {
+		let cards = all.shuffled().prefix(numberOfCards(forLevel: level.rawValue) / 2)
 		return cards.shuffled() + cards.shuffled()
 	}
 
@@ -68,4 +74,3 @@ extension Card {
 	}
 
 }
-
