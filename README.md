@@ -1,9 +1,8 @@
-# flip-card-game
+# Flip Card Game
 
 A memory game demo.
 
 <img src="https://github.com/aktassamet/flip-card-game/blob/master/Sources/Assets/demo.gif" width="300" height="500" />
-
 
 ## Requirements
 
